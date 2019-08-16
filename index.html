@@ -1,6 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="index.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
   <title></title>
@@ -18,11 +20,18 @@
   <div id='lectures'>
     <div class='lecture'>
       <h2>Semana 1:</h2>
-      <p>comentarios...</p>
+      <p>
+        <span id="dots1">...</span>
+        <span id="more1"><embed src="texts/text1.txt" width="100%" height="200"></embed></span>
+      </p>
+      <button class="button" onclick="myFunction(1)" id="myBtn1">Read more</button>
     </div>
     <div class='lecture'>
       <h2>Semana 2:</h2>
-      <p>comentarios...</p>
+      <p>
+        <span id="dots2">...</span>
+        <span id="more2">comentarios...</span></p>
+      <button class="button" onclick="myFunction(2)" id="myBtn2">Read more</button>
     </div>
   </div>
 </body>
