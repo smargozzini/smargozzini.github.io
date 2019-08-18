@@ -15,6 +15,7 @@ h1 {
     letter-spacing: .2em;
     top: 25%;
     width: 100%;
+    margin-top: 130px;
 }
 
 h2 {
@@ -33,6 +34,7 @@ h3 {
     letter-spacing: .5em;
     top: 25%;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 span, span:after {
